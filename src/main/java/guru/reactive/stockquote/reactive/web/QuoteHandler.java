@@ -1,6 +1,5 @@
 package guru.reactive.stockquote.reactive.web;
 
-import com.sun.org.apache.xpath.internal.operations.Quo;
 import guru.reactive.stockquote.model.Quote;
 import guru.reactive.stockquote.services.QuoteGeneratorService;
 import org.springframework.http.MediaType;
