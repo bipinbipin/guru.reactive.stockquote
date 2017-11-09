@@ -7,6 +7,6 @@ import reactor.core.publisher.Flux;
 
 public interface QuoteRepository extends ReactiveMongoRepository<Quote, String> {
 
-    @Tailable
+@Tailable
     Flux<Quote> findWithTailableCursorBy();
-}
+        }

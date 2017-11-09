@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 import reactor.core.Disposable;
 import reactor.core.publisher.Flux;
 
-@Component
+//@Component
 public class QuoteRunner implements CommandLineRunner {
 
     private final StockQuoteClient stockQuoteClient;
